@@ -6,14 +6,16 @@ import HandwrittenButton from '@/components/HandwrittenButton';
 import EmailSignup from '@/components/EmailSignup';
 import ProjectCard from '@/components/ProjectCard';
 import Logo from '@/components/Logo';
+import ThemeToggle from '@/components/ThemeToggle';
 import { Github } from 'lucide-react';
 
 const Index = () => {
   return (
-    <div className="font-indie bg-white overflow-y-auto h-screen">
+    <div className="font-indie bg-background text-foreground overflow-y-auto h-screen">
       {/* Header with Logo */}
       <header className="fixed top-0 left-0 w-full px-6 py-4 z-10">
         <Logo />
+        <ThemeToggle />
       </header>
 
       <div className="snap-y snap-mandatory h-screen overflow-y-auto">
