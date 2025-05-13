@@ -18,7 +18,7 @@ const HandwrittenButton: React.FC<HandwrittenButtonProps> = ({
   icon
 }) => {
   const buttonClasses = cn(
-    "relative inline-flex items-center justify-center px-8 py-3 border-2 border-black rounded-full font-indie text-xl hover:scale-105 transition-transform",
+    "relative inline-flex items-center justify-center px-8 py-3 border-2 border-black dark:border-white rounded-full font-indie text-xl hover:scale-105 transition-transform",
     className
   );
 

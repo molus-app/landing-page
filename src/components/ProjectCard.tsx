@@ -12,7 +12,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, link }) => {
       href={link} 
       target="_blank" 
       rel="noopener noreferrer"
-      className="block border-2 border-black p-6 rounded-lg hover:scale-105 transition-transform"
+      className="block border-2 border-black dark:border-white p-6 rounded-lg hover:scale-105 transition-transform"
     >
       <h3 className="font-indie text-2xl">{title}</h3>
     </a>
